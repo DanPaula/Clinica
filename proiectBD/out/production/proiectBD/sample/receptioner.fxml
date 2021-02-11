@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="439.0" prefWidth="613.0" style="-fx-background-color: #99ddff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Receptioner">
+    <children>
+        <Label layoutX="181.0" layoutY="-5.0" prefHeight="65.0" prefWidth="251.0" text="Selectati Optiunea" textFill="#202a8a">
+            <font>
+                <Font name="Cambria" size="29.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="231.0" fitWidth="242.0" layoutX="169.0" layoutY="72.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="file:/C:/Users/paula/Desktop/proiect BD/proiectBD/imagini/profile.jpg" />
+            </image>
+        </ImageView>
+        <Button fx:id="bon" layoutX="14.0" layoutY="127.0" mnemonicParsing="false" onMouseClicked="#handleButtonDatebonAction" prefHeight="30.0" prefWidth="133.0" style="-fx-background-color: #68AECB; -fx-background-radius: 20;" text="Istoric Bonuri" textFill="#202a8a">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="orar" layoutX="416.0" layoutY="135.0" mnemonicParsing="false" onMouseClicked="#handleButtonDate22Action" prefHeight="30.0" prefWidth="156.0" style="-fx-background-color: #68AECB; -fx-background-radius: 20;" text="Verificare Orar" textFill="#202a8a">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Label fx:id="lblErrors" layoutX="7.0" layoutY="14.0" prefHeight="17.0" prefWidth="162.0" />
+        <Button fx:id="logout" layoutX="427.0" layoutY="187.0" mnemonicParsing="false" onMouseClicked="#handleButtonLogOutAction" prefHeight="30.0" prefWidth="133.0" style="-fx-background-color: #68AECB; -fx-background-radius: 20;" text="Log Out" textFill="#202a8a">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="dateP" layoutX="328.0" layoutY="367.0" mnemonicParsing="false" onMouseClicked="#handleButtonDatePAction" prefHeight="30.0" prefWidth="231.0" style="-fx-background-color: #68AECB; -fx-background-radius: 20;" text="Vizualizare Program Policlinica" textFill="#202a8a">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Button fx:id="bon1" layoutX="14.0" layoutY="202.0" mnemonicParsing="false" onMouseClicked="#handleButtonDatebon1Action" prefHeight="30.0" prefWidth="133.0" style="-fx-background-color: #68AECB; -fx-background-radius: 20;" text="Emitere Bonuri" textFill="#202a8a">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+      <Button fx:id="date5" layoutX="14.0" layoutY="273.0" mnemonicParsing="false" onMouseClicked="#handleButtonDate5Action" prefHeight="30.0" prefWidth="133.0" style="-fx-background-color: #68AECB; -fx-background-radius: 20;" text="Adaugare Pacient" textFill="#202a8a">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="date" layoutX="416.0" layoutY="82.0" mnemonicParsing="false" onMouseClicked="#handleButtonDateAction" prefHeight="30.0" prefWidth="156.0" style="-fx-background-color: #68AECB; -fx-background-radius: 20;" text="Afisare Date Pers" textFill="#202a8a">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="progr" layoutX="420.0" layoutY="243.0" mnemonicParsing="false" onMouseClicked="#handleButtonDate4Action" prefHeight="17.0" prefWidth="147.0" style="-fx-background-color: #68AECB; -fx-background-radius: 20;" text="Programare Consult" textFill="#202a8a">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

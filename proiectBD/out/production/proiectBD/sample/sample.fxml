@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" prefHeight="405.0" prefWidth="514.0" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="438.0" prefWidth="564.0" style="-fx-background-color: #99ddff;">
+         <children>
+            <HBox layoutX="-1.0" layoutY="-2.0" prefHeight="81.0" prefWidth="514.0">
+               <children>
+                  <Label prefHeight="81.0" prefWidth="528.0" text="      Policlinica MedLife" textAlignment="JUSTIFY" textFill="#0077b3" textOverrun="CENTER_ELLIPSIS">
+                     <font>
+                        <Font name="Constantia Bold" size="44.0" />
+                     </font>
+                  </Label>
+               </children></HBox>
+            <Pane layoutY="79.0" prefHeight="327.0" prefWidth="516.0">
+               <children>
+                  <TextField fx:id="email1" layoutX="84.0" layoutY="35.0" prefHeight="27.0" prefWidth="157.0" promptText="email" style="-fx-border-color: #008fb3; -fx-background-color: #00b8e6; -fx-background-insets: 0; -fx-border-radius: 20; -fx-background-radius: 20;" />
+                  <Label layoutX="13.0" layoutY="35.0" prefHeight="27.0" prefWidth="60.0" text="E-mail:" textFill="#202a8a">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="12.0" layoutY="77.0" text="Nume:" textFill="#202a8a">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="nume" layoutX="84.0" layoutY="76.0" prefHeight="27.0" prefWidth="157.0" promptText="nume" style="-fx-border-color: #008fb3; -fx-background-color: #00b8e6; -fx-background-insets: 0; -fx-border-radius: 20; -fx-background-radius: 20;" />
+                  <Label layoutX="12.0" layoutY="110.0" prefHeight="27.0" prefWidth="104.0" text="Prenume:" textFill="#202a8a">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="150.0" prefHeight="27.0" prefWidth="60.0" text="Parola:" textFill="#202a8a">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <PasswordField fx:id="parola1" layoutX="84.0" layoutY="150.0" prefHeight="27.0" prefWidth="157.0" promptText="parola" style="-fx-border-color: #008fb3; -fx-background-color: #00b8e6; -fx-border-radius: 20; -fx-background-insets: 0; -fx-background-radius: 20;" />
+                  <TextField fx:id="tel" layoutX="84.0" layoutY="185.0" prefHeight="27.0" prefWidth="157.0" promptText="tel" style="-fx-border-color: #008fb3; -fx-background-color: #00b8e6; -fx-background-insets: 0; -fx-border-radius: 20; -fx-background-radius: 20;" />
+                  <Label layoutX="13.0" layoutY="185.0" prefHeight="27.0" prefWidth="60.0" text="Tel:" textFill="#202a8a">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="13.0" layoutY="226.0" prefHeight="27.0" prefWidth="60.0" text="CNP:" textFill="#202a8a">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="cnp" layoutX="84.0" layoutY="226.0" prefHeight="27.0" prefWidth="157.0" promptText="cnp" style="-fx-border-color: #008fb3; -fx-background-color: #00b8e6; -fx-background-insets: 0; -fx-border-radius: 20; -fx-background-radius: 20;" />
+                  <Label layoutX="7.0" layoutY="261.0" prefHeight="27.0" prefWidth="104.0" text="Data angajare:" textFill="#202a8a">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <DatePicker fx:id="data" layoutX="116.0" layoutY="262.0" prefHeight="27.0" prefWidth="114.0" style="-fx-background-color: #00b8e6; -fx-border-color: #008fb3;" />
+                  <TextField fx:id="prenume" layoutX="84.0" layoutY="110.0" prefHeight="27.0" prefWidth="157.0" promptText="prenume" style="-fx-border-color: #008fb3; -fx-background-color: #00b8e6; -fx-background-insets: 0; -fx-border-radius: 20; -fx-background-radius: 20;" />
+                  <Label layoutX="271.0" layoutY="262.0" prefHeight="27.0" prefWidth="60.0" text="Functie:" textFill="#202a8a">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="185.0" fitWidth="259.0" layoutX="248.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="file:/C:/Users/paula/Desktop/proiect BD/proiectBD/imagini/hospital.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="lblErrors" layoutX="16.0" layoutY="296.0" prefHeight="17.0" prefWidth="172.0" />
+                  <Button fx:id="btnSignin" layoutX="326.0" layoutY="4.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="35.0" prefWidth="114.0" style="-fx-border-color: #008fb3;" text="Sign In" textFill="#070f32" />
+                  <TextField fx:id="functie1" layoutX="331.0" layoutY="262.0" prefHeight="27.0" prefWidth="157.0" promptText="functie" style="-fx-border-color: #008fb3; -fx-background-color: #00b8e6; -fx-background-insets: 0; -fx-border-radius: 20; -fx-background-radius: 20;" />
+               </children></Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #21618C;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ProfitMed1">
+    <children>
+        <Button fx:id="date" layoutX="104.0" layoutY="26.0" mnemonicParsing="false" onMouseClicked="#handleButtonDate1Action" prefHeight="61.0" prefWidth="349.0" style="-fx-background-color: #68AECB;" text="Profit Medic" textFill="#0e1273">
+            <font>
+                <Font name="Cambria" size="32.0" />
+            </font>
+        </Button>
+        <ImageView fitHeight="184.0" fitWidth="279.0" layoutX="14.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="file:/C:/Users/paula/Desktop/proiect BD/proiectBD/imagini/profit.jpg" />
+            </image>
+        </ImageView>
+        <TextField layoutX="232.0" layoutY="269.0" prefHeight="30.0" prefWidth="217.0" style="-fx-background-color: #AED6F1;" text="Profitul dumneavoastra ">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="profit" layoutX="464.0" layoutY="269.0" prefHeight="38.0" prefWidth="113.0" style="-fx-background-color: #AED6F1;">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </TextField>
+        <Button fx:id="back" layoutX="486.0" layoutY="339.0" mnemonicParsing="false" onMouseClicked="#handleButtonBackAction" prefHeight="27.0" prefWidth="72.0" style="-fx-background-color: #4e70af;" text="Back" textFill="#081935">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <TextField fx:id="nume" layoutX="361.0" layoutY="104.0" prefHeight="38.0" prefWidth="107.0" style="-fx-background-color: #AED6F1;">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="232.0" layoutY="104.0" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #AED6F1;" text="Nume">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="232.0" layoutY="151.0" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #AED6F1;" text="Prenume">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </TextField>
+        <TextField layoutX="365.0" layoutY="151.0" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: #AED6F1;">
+            <font>
+                <Font name="System Bold" size="17.0" />
+            </font>
+        </TextField>
+    </children>
+</AnchorPane>
